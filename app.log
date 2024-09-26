@@ -1,0 +1,74 @@
+2024-09-26 02:03:04,967 - WARNING -  * Debugger is active!
+2024-09-26 02:03:04,978 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:03:10,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:03:10,242 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:03:10,244 - INFO -  * Restarting with stat
+2024-09-26 02:03:11,964 - WARNING -  * Debugger is active!
+2024-09-26 02:03:11,984 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:03:33,430 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:03:33,430 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:03:33,431 - INFO -  * Restarting with stat
+2024-09-26 02:03:34,519 - WARNING -  * Debugger is active!
+2024-09-26 02:03:34,525 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:03:56,463 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\app.py', reloading
+2024-09-26 02:03:56,633 - INFO -  * Restarting with stat
+2024-09-26 02:05:32,532 - WARNING -  * Debugger is active!
+2024-09-26 02:05:32,578 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:05:36,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:05:36,918 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:05:36,921 - INFO -  * Restarting with stat
+2024-09-26 02:05:37,972 - WARNING -  * Debugger is active!
+2024-09-26 02:05:37,975 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:13:30,950 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\app.py', reloading
+2024-09-26 02:13:31,612 - INFO -  * Restarting with stat
+2024-09-26 02:13:33,645 - WARNING -  * Debugger is active!
+2024-09-26 02:13:33,654 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:14:17,548 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\test_app.py', reloading
+2024-09-26 02:14:18,607 - INFO -  * Restarting with stat
+2024-09-26 02:14:20,762 - WARNING -  * Debugger is active!
+2024-09-26 02:14:20,779 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:14:33,855 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:14:33,855 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:14:33,857 - INFO -  * Restarting with stat
+2024-09-26 02:14:35,308 - WARNING -  * Debugger is active!
+2024-09-26 02:14:35,313 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:15:00,582 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:15:00,583 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:15:00,587 - INFO -  * Restarting with stat
+2024-09-26 02:15:01,937 - WARNING -  * Debugger is active!
+2024-09-26 02:15:01,950 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:17:25,520 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\app.py', reloading
+2024-09-26 02:17:26,236 - INFO -  * Restarting with stat
+2024-09-26 02:17:31,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:17:31,711 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:17:31,714 - INFO -  * Restarting with stat
+2024-09-26 02:17:33,545 - WARNING -  * Debugger is active!
+2024-09-26 02:17:33,624 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:17:55,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:17:55,257 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:17:55,261 - INFO -  * Restarting with stat
+2024-09-26 02:17:56,346 - WARNING -  * Debugger is active!
+2024-09-26 02:17:56,349 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 02:18:16,268 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\app.py', reloading
+2024-09-26 02:18:16,484 - INFO -  * Restarting with stat
+2024-09-26 02:18:19,910 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 02:18:19,910 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 02:18:19,917 - INFO -  * Restarting with stat
+2024-09-26 02:18:21,347 - WARNING -  * Debugger is active!
+2024-09-26 02:18:21,358 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 07:18:46,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 07:18:46,616 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 07:18:46,619 - INFO -  * Restarting with stat
+2024-09-26 07:18:48,202 - WARNING -  * Debugger is active!
+2024-09-26 07:18:48,212 - INFO -  * Debugger PIN: 128-935-782
+2024-09-26 07:19:55,288 - INFO -  * Detected change in 'C:\\Users\\Admin\\PycharmProjects\\NT_H\\app.py', reloading
+2024-09-26 07:19:55,805 - INFO -  * Restarting with stat
