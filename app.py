@@ -45,7 +45,7 @@ def index():
                 "rate": exchange_rates[code]  # Current exchange rate against USD
             })
 
-    return render_template('home.html', currencies=currency_list)
+    return render_template('task4.html', currencies=currency_list)
 
 
 if __name__ == '__main__':
