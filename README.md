@@ -7,10 +7,15 @@ This project is a Currency Exchange Rate Dashboard that allows users to analyze 
 🚀 Features
 
 📊 Multiple Timeframes: View exchange rate data in weekly, monthly, quarterly, and yearly charts.
+
 📈 Peak & Lowest Rates: Automatically detects and displays the highest and lowest exchange rates for the selected period.
+
 🖨️ Print Option: Easily print the visualized data for reference or analysis.
+
 🧮 Custom Currency Baskets: Create and manage custom currency baskets with user-defined weightage of currencies and calculate their aggregate value against a base currency.
+
 ⚠️ Risk Indicator: View fluctuation levels for selected currencies over the chosen period with the integrated volatility indicator.
+
 📄 Data Input
 The dashboard uses a dataset containing exchange rate information for different currency pairs. The base currency is always USD, and the second currency can vary, including pairs such as USD/INR, USD/GBP, USD/EUR, USD/CAD, etc.
 
