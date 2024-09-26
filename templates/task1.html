@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Trend</title>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+<body>
+    <h1>Currency Exchange Rate Trend</h1>
+    <form method="POST">
+        <label for="currency1">Base Currency (USD):</label>
+        <input type="text" id="currency1" name="currency1" value="USD" disabled />
+
+        <label for="currency2">Select Currency:</label>
+        <select name="currency">
+            {% for curr in currencies %}
+                <option value="{{ curr }}" {% if curr == currency %}selected{% endif %}>{{ curr }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="duration">Select Duration:</label>
+        <select name="duration">
+            <option value="weekly" {% if duration == 'weekly' %}selected{% endif %}>Weekly</option>
+            <option value="monthly" {% if duration == 'monthly' %}selected{% endif %}>Monthly</option>
+            <option value="quarterly" {% if duration == 'quarterly' %}selected{% endif %}>Quarterly</option>
+            <option value="yearly" {% if duration == 'yearly' %}selected{% endif %}>Yearly</option>
+        </select>
+
+        <label for="year">Select Year:</label>
+        <select name="year">
+            {% for year in range(2012, 2023) %}
+                <option value="{{ year }}" {% if year == selected_year %}selected{% endif %}>{{ year }}</option>
+            {% endfor %}
+        </select>
+
+        <input type="submit" value="Generate Chart">
+    </form>
+
+    {% if chart %}
+    <div>
+        <h2>Chart for {{ currency }} in {{ year }}</h2>
+        <div>{{ chart | safe }}</div>
+    </div>
+
+    <h3>Exchange Rate Statistics</h3>
+    <p>Highest Rate: {{ highest_rate }} on {{ highest_date }}</p>
+    <p>Lowest Rate: {{ lowest_rate }} on {{ lowest_date }}</p>
+    {% endif %}
+</body>
+</html>

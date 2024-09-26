@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Volatility & Risk Indicator</title>
+</head>
+<body>
+    <h1>Currency Volatility and Risk Indicator</h1>
+
+    <form method="POST">
+        <label for="currency1">Select Currency 1:</label>
+        <select name="currency1" id="currency1">
+            {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="currency2">Select Currency 2:</label>
+        <select name="currency2" id="currency2">
+            {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="start_year">Start Year:</label>
+        <input type="number" name="start_year" id="start_year" required>
+
+        <label for="end_year">End Year:</label>
+        <input type="number" name="end_year" id="end_year" required>
+
+        <button type="submit">Show Volatility</button>
+    </form>
+
+    {% if plot %}
+        <h2>Volatility Chart</h2>
+        <div>
+            {{ plot|safe }}
+        </div>
+    {% endif %}
+
+    {% if risk_level %}
+        <h2>Risk Levels</h2>
+        <p><strong>{{ risk_level['currency1'] }}:</strong> {{ risk_level['risk1'] }}</p>
+        <p><strong>{{ risk_level['currency2'] }}:</strong> {{ risk_level['risk2'] }}</p>
+    {% endif %}
+</body>
+</html>
